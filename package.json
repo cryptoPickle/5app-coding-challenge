@@ -1,0 +1,15 @@
+{
+  "name": "5app-coding-challenge",
+  "version": "0.0.0",
+  "description": "The 5app developer challenge",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5app/5app-coding-challenge.git"
+  },
+  "author": "Andrew Dodson <andrew@5app.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5app/5app-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/5app/5app-coding-challenge#readme"
+}
