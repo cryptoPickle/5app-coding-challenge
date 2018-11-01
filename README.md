@@ -1,6 +1,6 @@
 # 5app-coding-challenge
 
-Please create a webservice which modifies an incoming payload and returns a response. 
+Please create a webservice on a public URL which modifies an incoming payload and returns a response. 
 
 The response should be a JSON object with property `response` with an Array of items.
 
