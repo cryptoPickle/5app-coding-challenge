@@ -11,5 +11,31 @@
   "bugs": {
     "url": "https://github.com/5app/5app-coding-challenge/issues"
   },
-  "homepage": "https://github.com/5app/5app-coding-challenge#readme"
+  "homepage": "https://github.com/5app/5app-coding-challenge#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "prestart:dev": "npm run test",
+    "start:dev": "nodemon --inspect=0.0.0.0:9230 ./src/babel.start.js",
+    "start": "pm2 start",
+    "poststart": "pm2 logs ",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.9",
+    "pm2": "^3.2.7"
+  },
+  "jest": {
+    "testURL": "http://localhost/",
+    "verbose": true,
+    "testMatch": [ "**/__tests__/**/*.js?(x)", "**/?(*.)+(spec|test).js?(x)" ]
+  }
 }
