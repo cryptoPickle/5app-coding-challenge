@@ -66,4 +66,6 @@ Current endpoint is
 If you are using the IntelliJ idea, you can use request.HTTP file to make the request to the endpoint with prefilled dummy data as you have requested or can use postman, restlet etc. 
 
 
+Note: .env file commited for convince.
+
 Thank you for consideration
